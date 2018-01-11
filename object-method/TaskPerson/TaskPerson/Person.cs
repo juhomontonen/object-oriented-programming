@@ -6,7 +6,51 @@ namespace TaskPerson
 {
     class Person
     {
+        //muuttujat
         public string Name;
-        private int Age;
+        private int age;
+
+        //konstruktori
+        public Person()
+        {
+            Name = "unknown";
+            age = 0;
+        }
+
+        public Person(string name, int age)
+        {
+            Name = name;
+            this.age = age;
+        }
+
+        //metodit
+        public void GrowOld()
+        {
+            this.age++;
+        }
+
+        public void PrintPersonInfo()
+        {
+            Console.WriteLine($"Nimi: {Name}\nIkä: {this.age}\nAikuinen: {IsAdult()}");
+        }
+
+        public bool IsAdult()
+        {
+            //return this.age >= 18;
+
+            if (this.age>=18)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        
+        public int GetAge()
+        {
+            return this.age;
+        }
     }
 }

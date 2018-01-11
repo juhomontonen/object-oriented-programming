@@ -6,9 +6,16 @@ namespace TaskPerson
     {
         static void Main(string[] args)
         {
-            Person personJouni = new Person[];
+            Person personJouni = new Person();
             personJouni.Name = "Jouni K";
-            personJouni.
+            personJouni.GrowOld();
+            personJouni.PrintPersonInfo();
+
+            Person newPerson = new Person("Joe Doe", 18);
+            newPerson.PrintPersonInfo();
+            newPerson.GrowOld();
+            newPerson.PrintPersonInfo();
+            Console.ReadKey();
         }
     }
 }
