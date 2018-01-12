@@ -1,0 +1,11 @@
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\bin\Debug\netcoreapp2.0\TaskKirja.deps.json
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\bin\Debug\netcoreapp2.0\TaskKirja.runtimeconfig.json
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\bin\Debug\netcoreapp2.0\TaskKirja.runtimeconfig.dev.json
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\bin\Debug\netcoreapp2.0\TaskKirja.dll
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\bin\Debug\netcoreapp2.0\TaskKirja.pdb
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\obj\Debug\netcoreapp2.0\TaskKirja.csprojResolveAssemblyReference.cache
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\obj\Debug\netcoreapp2.0\TaskKirja.csproj.CoreCompileInputs.cache
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\obj\Debug\netcoreapp2.0\TaskKirja.AssemblyInfoInputs.cache
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\obj\Debug\netcoreapp2.0\TaskKirja.AssemblyInfo.cs
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\obj\Debug\netcoreapp2.0\TaskKirja.dll
+Z:\dev\object-oriented-programming\object-method\TaskKirja\TaskKirja\obj\Debug\netcoreapp2.0\TaskKirja.pdb
