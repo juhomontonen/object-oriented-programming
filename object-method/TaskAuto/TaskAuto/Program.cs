@@ -9,7 +9,14 @@ namespace TaskAuto
             Auto autoA = new Auto();
             autoA.AskData();
 
+            Auto autoB = new Auto();
+            autoB.AskData();
+
             autoA.ShowCarInfo();
+            autoB.ShowCarInfo();
+            autoA.Accelerate(20);
+            autoB.Brake();
+
             Console.ReadKey();
         }
     }
