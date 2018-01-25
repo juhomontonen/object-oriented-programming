@@ -1,0 +1,11 @@
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\bin\Debug\netcoreapp2.0\TaskAuthor.deps.json
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\bin\Debug\netcoreapp2.0\TaskAuthor.runtimeconfig.json
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\bin\Debug\netcoreapp2.0\TaskAuthor.runtimeconfig.dev.json
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\bin\Debug\netcoreapp2.0\TaskAuthor.dll
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\bin\Debug\netcoreapp2.0\TaskAuthor.pdb
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\obj\Debug\netcoreapp2.0\TaskAuthor.csprojResolveAssemblyReference.cache
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\obj\Debug\netcoreapp2.0\TaskAuthor.csproj.CoreCompileInputs.cache
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\obj\Debug\netcoreapp2.0\TaskAuthor.AssemblyInfoInputs.cache
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\obj\Debug\netcoreapp2.0\TaskAuthor.AssemblyInfo.cs
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\obj\Debug\netcoreapp2.0\TaskAuthor.dll
+Z:\dev\object-oriented-programming\object-method\TaskAuthor\TaskAuthor\obj\Debug\netcoreapp2.0\TaskAuthor.pdb
