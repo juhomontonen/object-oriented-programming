@@ -12,7 +12,7 @@ namespace TaskAuthor
         public string Publisher;
         public double Price;
         public string Genre;
-        static string ChangeGenre;
+        public static string GenreChange;
 
         //konstruktori
         public Book(string title, string author, string publisher, double price, string genre)
@@ -78,9 +78,9 @@ namespace TaskAuthor
         //        Console.WriteLine($"Kirjaa {AskTitle} ei löytynyt.");
         //}
 
-        public static void GenreChange()
+        public void ChangeGenre(string newgenre)
         {
-            Console.WriteLine(ChangeGenre);
+            Genre = newgenre;
         }
 
     }

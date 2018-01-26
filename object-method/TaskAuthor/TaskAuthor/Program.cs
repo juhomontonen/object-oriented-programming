@@ -17,7 +17,9 @@ namespace TaskAuthor
 
             Console.Write("Syötä kirjan nimi: ");
             string askTitle = Console.ReadLine().ToUpper();
+
             bool isBookFound = false;
+
             for (int i = 0; i < books.Length; i++)
             {
                 if (books[i].SearchBook(askTitle.ToUpper()))
@@ -31,10 +33,8 @@ namespace TaskAuthor
             if (!isBookFound)
                 Console.WriteLine("Kirjaa ei löytynyt!");
 
-
-
-
-
+            bookB.ChangeGenre("Elämänkerta");
+            bookB.PrintBookInfo();
 
 
 
