@@ -33,14 +33,14 @@ namespace TaskAuthor
             Genre = " ";
         }
 
-        //public Book(Book book)
-        //{
-        //    Title = book.Title;
-        //    Author = book.Author;
-        //    Publisher = book.Publisher;
-        //    Price = book.Price;
-        //    Genre = book.Genre;
-        //}
+        public Book(Book book)
+        {
+            Title = book.Title;
+            Author = book.Author;
+            Publisher = book.Publisher;
+            Price = book.Price;
+            Genre = book.Genre;
+        }
 
         //metodit
         public void PrintBookInfo()
@@ -48,16 +48,35 @@ namespace TaskAuthor
             Console.WriteLine($"Kirjan nimi: {Title}\nKirjoittaja: {Author}\nKustantaja: {Publisher}\nHinta: {Price}\nGenre: {Genre}\n");
         }
 
-        public void GetBook(Book book)
-        {
-            Console.Write("Syötä kirjan nimi: ");
-            this.Title = Console.ReadLine();
+        //public void GetBook(Book book)
+        //{
+        //    Console.Write("Syötä kirjan nimi: ");
+        //    string AskTitle = Console.ReadLine().ToUpper();
+        //
+        //    if (AskTitle.Equals(Title.ToUpper()))
+        //        PrintBookInfo();
+        //    else
+        //        Console.WriteLine($"Kirjaa {AskTitle} ei löytynyt.");
+        //}
 
-            if (this.Title.Equals(Title))
-                PrintBookInfo();
+        public bool SearchBook(string askedTitle)
+        {
+            if (askedTitle.Equals(Title.ToUpper()))
+                return true;
             else
-                Console.WriteLine($"Kirjaa {this.Title} ei löytynyt.");
+                return false;
         }
+
+        //public void GetBook()
+        //{
+        //    Console.Write("Syötä kirjan nimi: ");
+        //    string AskTitle = Console.ReadLine().ToUpper();
+        //    
+        //    if (AskTitle.Equals(Title.ToUpper()))
+        //            PrintBookInfo();
+        //    else
+        //        Console.WriteLine($"Kirjaa {AskTitle} ei löytynyt.");
+        //}
 
         public static void GenreChange()
         {
