@@ -13,6 +13,7 @@ namespace TaskAuthor
         public double Price;
         public string Genre;
         public static string GenreChange;
+        private double newPrice;
 
         //konstruktori
         public Book(string title, string author, string publisher, double price, string genre)
@@ -22,6 +23,7 @@ namespace TaskAuthor
             Publisher = publisher;
             Price = price;
             Genre = genre;
+            newPrice = Price;
         }
 
         public Book()
@@ -33,19 +35,21 @@ namespace TaskAuthor
             Genre = " ";
         }
 
-        public Book(Book book)
-        {
-            Title = book.Title;
-            Author = book.Author;
-            Publisher = book.Publisher;
-            Price = book.Price;
-            Genre = book.Genre;
-        }
+        //public Book(Book book)
+        //{
+        //    Title = book.Title;
+        //    Author = book.Author;
+        //    Publisher = book.Publisher;
+        //    Price = book.Price;
+        //    Genre = book.Genre;
+        //}
 
         //metodit
         public void PrintBookInfo()
         {
             Console.WriteLine($"Kirjan nimi: {Title}\nKirjoittaja: {Author}\nKustantaja: {Publisher}\nHinta: {Price}\nGenre: {Genre}\n");
+            if (Price > 30)
+                Console.WriteLine($"Alennettu hinta: {newPrice}");
         }
 
         //public void GetBook(Book book)
@@ -78,10 +82,27 @@ namespace TaskAuthor
         //        Console.WriteLine($"Kirjaa {AskTitle} ei löytynyt.");
         //}
 
+        public double NewPrice
+        {
+            get
+            {
+                return newPrice;
+            }
+            set
+            {
+                if (value>30)
+                {
+                    newPrice=value*0.9;
+                }
+            }
+        }
+
         public void ChangeGenre(string newgenre)
         {
             Genre = newgenre;
         }
+
+
 
     }
 }

@@ -32,9 +32,10 @@ namespace TaskAuthor
             }
             if (!isBookFound)
                 Console.WriteLine("Kirjaa ei löytynyt!");
-
+            //changegenre testi
             bookB.ChangeGenre("Elämänkerta");
-            bookB.PrintBookInfo();
+            bookC.NewPrice = 50;
+            bookC.PrintBookInfo();
 
 
 
