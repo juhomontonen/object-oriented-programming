@@ -6,8 +6,8 @@ namespace TaskAuthor
     {
         static void Main(string[] args)
         {
-            Book bookA = new Book("Jamie Oliverin yrttikirja", "Matti", "Mauri Kunnas Oy", 30, "Keittokirja");
-            Book bookB = new Book("Hauskoja juttuja", "Kimmo", "Kustannus Ay", 22, "Vitsikirja");
+            Book bookA = new Book("Jamie Oliverin yrttikirja", "Matti", "Mauri Kunnas Oy", 31, "Keittokirja");
+            Book bookB = new Book("Hauskoja juttuja", "Kimmo", "Kustannus Ay", 44, "Vitsikirja");
             Book bookC = new Book("Guinness World Records", "Jari", "Kustannus Ay", 50, "Ennätyskirja");
 
             Book[] books = new Book[3];

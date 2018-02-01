@@ -23,7 +23,7 @@ namespace TaskAuthor
             Publisher = publisher;
             Price = price;
             Genre = genre;
-            newPrice = Price;
+            NewPrice = Price;
         }
 
         public Book()
@@ -35,21 +35,21 @@ namespace TaskAuthor
             Genre = " ";
         }
 
-        //public Book(Book book)
-        //{
-        //    Title = book.Title;
-        //    Author = book.Author;
-        //    Publisher = book.Publisher;
-        //    Price = book.Price;
-        //    Genre = book.Genre;
-        //}
+        public Book(Book book)
+        {
+            Title = book.Title;
+            Author = book.Author;
+            Publisher = book.Publisher;
+            Price = book.Price;
+            Genre = book.Genre;
+        }
 
         //metodit
         public void PrintBookInfo()
         {
-            Console.WriteLine($"Kirjan nimi: {Title}\nKirjoittaja: {Author}\nKustantaja: {Publisher}\nHinta: {Price}\nGenre: {Genre}\n");
+            Console.WriteLine($"Kirjan nimi: {Title}\nKirjoittaja: {Author}\nKustantaja: {Publisher}\nHinta: {Price:f2} euroa\nGenre: {Genre}\n");
             if (Price > 30)
-                Console.WriteLine($"Alennettu hinta: {newPrice}");
+                Console.WriteLine($"Kirjan {Title} alennettu hinta: {this.NewPrice:f2} euroa\n");
         }
 
         //public void GetBook(Book book)
@@ -90,10 +90,12 @@ namespace TaskAuthor
             }
             set
             {
-                if (value>30)
+                if (value > 30)
                 {
-                    newPrice=value*0.9;
+                    newPrice = value * 0.9;
                 }
+                else
+                    newPrice = value;
             }
         }
 
