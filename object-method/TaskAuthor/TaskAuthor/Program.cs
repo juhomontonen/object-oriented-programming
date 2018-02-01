@@ -1,4 +1,5 @@
 ﻿using System;
+using Literature;
 
 namespace TaskAuthor
 {
@@ -24,7 +25,7 @@ namespace TaskAuthor
             {
                 if (books[i].SearchBook(askTitle.ToUpper()))
                 {
-                    Console.WriteLine("Kirja löytyi.");
+                    Console.WriteLine("\nKirja löytyi.");
                     books[i].PrintBookInfo();
                     isBookFound = true;
                     break;
@@ -37,7 +38,9 @@ namespace TaskAuthor
             bookC.NewPrice = 50;
             bookC.PrintBookInfo();
 
-
+            //tehtävä 4
+            Author authorA = new Author("Matti", "01.10.1980", bookA);
+            authorA.PrintAuthorInfo();
 
             Console.ReadKey();
         }

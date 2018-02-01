@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaskAuthor
+namespace Literature
 {
     class Book
     {
         //muuttujat
         public string Title;
-        public string Author;
+        private string _author;
         public string Publisher;
         public double Price;
         public string Genre;
@@ -19,7 +19,7 @@ namespace TaskAuthor
         public Book(string title, string author, string publisher, double price, string genre)
         {
             Title = title;
-            Author = author;
+            _author = author;
             Publisher = publisher;
             Price = price;
             Genre = genre;
@@ -29,7 +29,7 @@ namespace TaskAuthor
         public Book()
         {
             Title = " ";
-            Author = " ";
+            _author = " ";
             Publisher = " ";
             Price = 0;
             Genre = " ";
@@ -38,7 +38,7 @@ namespace TaskAuthor
         public Book(Book book)
         {
             Title = book.Title;
-            Author = book.Author;
+            _author = book.Author;
             Publisher = book.Publisher;
             Price = book.Price;
             Genre = book.Genre;
@@ -98,6 +98,9 @@ namespace TaskAuthor
                     newPrice = value;
             }
         }
+
+        public string Author { get => _author; }
+            //set => _author = value; 
 
         public void ChangeGenre(string newgenre)
         {
