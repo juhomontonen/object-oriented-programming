@@ -14,9 +14,9 @@ namespace TaskVehicle
         //konstruktori
         public Car(string type, string brand, int year, double price, double motorsize, string model, int doors) : base(type, brand, year, price)
         {
-            Type = type;
+            MotorSize = motorsize;
             Model = model;
-            Year = year;
+            Doors = doors;
         }
 
         //metodit

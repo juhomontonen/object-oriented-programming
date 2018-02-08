@@ -6,7 +6,14 @@ namespace TaskVehicle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Vehicle vehicleA = new Vehicle("Pyörä", "Nopsa", 1960, 20);
+            Car carA = new Car("Auto", "Toyota", 1990, 1000, 100, "Hiace", 2);
+
+
+            vehicleA.PrintVehicleInfo();
+            carA.PrintVehicleInfo();
+
+            Console.ReadKey();
         }
     }
 }
