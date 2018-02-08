@@ -20,12 +20,20 @@ namespace TaskVehicle
         }
 
         //metodit
-        public override void PrintVehicleInfo()
+        public override string PrintVehicleInfo()
         {
-            base.PrintVehicleInfo();
-            Console.WriteLine($"Moottorin koko: {MotorSize}\nMalli: {Model}\nVuosimalli: {Year}\n");
+                return $"Moottorin koko: {MotorSize}\nMalli: {Model}\nVuosimalli: {Year}\n";
         }
 
+        public override string ToString()
+        {
+            return PrintVehicleInfo();
+        }
+
+        public override bool Equals(object obj)
+        {
+            return (MotorSize > ((Car)obj).MotorSize);
+        }
 
 
     }

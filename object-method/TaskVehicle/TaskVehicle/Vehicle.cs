@@ -22,9 +22,9 @@ namespace TaskVehicle
         }
 
         //metodit
-        virtual public void PrintVehicleInfo()
+        public virtual string PrintVehicleInfo()
         {
-            Console.WriteLine($"Kulkuneuvon tiedot\nTyyppi: {Type}\nMerkki: {Brand}\nVuosimalli: {Year}\nHinta: {Price}\n");
+            return $"Kulkuneuvon tiedot\nTyyppi: {Type}\nMerkki: {Brand}\nVuosimalli: {Year}\nHinta: {Price}\n";
         }
 
 
