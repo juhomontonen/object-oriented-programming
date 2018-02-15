@@ -7,10 +7,10 @@ namespace TaskVehicle
     class Vehicle
     {
         //muuttujat
-        protected string Type;
-        protected string Brand;
-        protected int Year;
-        protected double Price;
+        public string Type;
+        public string Brand;
+        public int Year;
+        public double Price;
 
         //konstruktori
         public Vehicle(string type, string brand, int year, double price)

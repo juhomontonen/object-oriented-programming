@@ -22,7 +22,7 @@ namespace TaskVehicle
         //metodit
         public override string PrintVehicleInfo()
         {
-                return $"Moottorin koko: {MotorSize}\nMalli: {Model}\nVuosimalli: {Year}\n";
+                return $"Kulkuneuvon tiedot\nTyyppi: {Type}\nMerkki: {Brand}\nVuosimalli: {Year}\nHinta: {Price}\nMoottorin koko: {MotorSize}\nMalli: {Model}\nOvien lukumäärä: {Doors}\n";
         }
 
         public override string ToString()
