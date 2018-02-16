@@ -1,0 +1,11 @@
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\bin\Debug\netcoreapp2.0\BbanValidator.deps.json
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\bin\Debug\netcoreapp2.0\BbanValidator.runtimeconfig.json
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\bin\Debug\netcoreapp2.0\BbanValidator.runtimeconfig.dev.json
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\bin\Debug\netcoreapp2.0\BbanValidator.dll
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\bin\Debug\netcoreapp2.0\BbanValidator.pdb
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\obj\Debug\netcoreapp2.0\BbanValidator.csprojResolveAssemblyReference.cache
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\obj\Debug\netcoreapp2.0\BbanValidator.csproj.CoreCompileInputs.cache
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\obj\Debug\netcoreapp2.0\BbanValidator.AssemblyInfoInputs.cache
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\obj\Debug\netcoreapp2.0\BbanValidator.AssemblyInfo.cs
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\obj\Debug\netcoreapp2.0\BbanValidator.dll
+Z:\dev\object-oriented-programming\object-method\BbanValidator\BbanValidator\obj\Debug\netcoreapp2.0\BbanValidator.pdb
