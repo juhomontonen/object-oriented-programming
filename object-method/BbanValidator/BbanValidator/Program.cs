@@ -6,7 +6,7 @@ namespace BbanValidator
     {
         static void Main(string[] args)
         {
-            string machineFormat = "123456-78912";
+            string machineFormat = "223456-78912";
             bool isMachineFormat = BankUtil.CorrectNumber(ref machineFormat);
             if (isMachineFormat)
             {
