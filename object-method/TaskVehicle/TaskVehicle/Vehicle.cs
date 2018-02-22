@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TaskVehicle
 {
-    class Vehicle
+    abstract class Vehicle
     {
         //muuttujat
         public string Type;
