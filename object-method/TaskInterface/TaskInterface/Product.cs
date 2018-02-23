@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaskInterface
 {
-    class Product
+    class Product : IProduct
     {
         //muuttujat
         string Name;
@@ -20,5 +20,34 @@ namespace TaskInterface
             Price = price;
             Quantity = quantity;
         }
+
+        //metodit
+        public void GetProduct()
+        {
+            Console.Write("Syötä tuotteen nimi: ");
+            string AskName = Console.ReadLine().ToUpper();
+
+            if (AskName.Equals(Name.ToUpper()))
+                PrintProductInfo();
+            else
+                Console.WriteLine($"Tuotetta {AskName} ei löytynyt.");
+        }
+
+        public string TotalValue()
+        {
+            double value = Price * Quantity;
+            return $"Kokonaisarvo on {value} euroa.";
+        }
+
+        public void PrintProductInfo()
+        {
+            Console.WriteLine($"{Name}, {Price}, {Quantity}");
+        }
+
+        public override string ToString()
+        {
+            return $"{Name}, {Price}, {Quantity}";
+        }
+
     }
 }

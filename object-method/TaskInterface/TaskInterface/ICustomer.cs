@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TaskInterface
 {
-    interface IProduct
+    interface ICustomer
     {
-        string TotalValue();
-        void GetProduct();
+        void GetCustomer();
+        void CalculateBonus();
     }
 }
